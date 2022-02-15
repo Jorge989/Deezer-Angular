@@ -19,7 +19,7 @@
 }
 .album-card {
   display: flex;
-  padding: 20px;
+  padding: 10px;
   flex-direction: column;
   align-items: center;
 }
