@@ -7,21 +7,17 @@ import { BannerComponent } from './banner/banner.component';
 import { AlbumsComponent } from './albums/albums.component';
 import { AlbumsListComponent } from './albums-list/albums-list.component';
 import { HttpClientModule } from '@angular/common/http';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BannerComponent,
     AlbumsComponent,
-    AlbumsListComponent
+    AlbumsListComponent,
   ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-
-  ],
+  imports: [BrowserModule, HttpClientModule, FontAwesomeModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
