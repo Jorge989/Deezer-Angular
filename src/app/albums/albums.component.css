@@ -1,0 +1,106 @@
+.card-container{
+
+  display: flex;
+}
+.album-card{
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.album-card p{
+color: rgb(92, 92, 92);
+}
+.album-card_img img{
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 1px rgb(109, 109, 109);
+
+}
+
+.uncheckedClass{
+  margin-top: 9px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px #222;
+  cursor: pointer;
+  color: white;
+  outline: 0px;
+  border:0px;
+  height: 40px;
+  width: 50px;
+  background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+}
+.uncheckedClass:hover{
+  margin-top: 9px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px #222;
+  cursor: pointer;
+  color: white;
+  outline: 0px;
+  border:0px;
+ height: 40px;
+  width: 50px;
+  background: linear-gradient(69.06deg,#bd74d8 -26.76%,#6b81f1 44.6%,#2efb74 132.54%);
+}
+
+.checkedClass{
+  margin-top: 9px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px #222;
+  cursor: pointer;
+  color: white;
+  outline: 0px;
+  border:0px;
+  height: 30px;
+  width: 80px;
+  background: linear-gradient(69.06deg,#b798c2 -26.76%,#8696e6 44.6%,#88f0ab 132.54%);
+}
+.checkedClass:hover{
+  margin-top: 9px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px #222;
+  cursor: pointer;
+  color: white;
+  outline: 0px;
+  border:0px;
+  height: 30px;
+  width: 80px;
+  background: linear-gradient(69.06deg,rgb(179, 97, 209) -26.76%,#697de0 44.6%,#61e68d 132.54%);
+}
+
+.pauseClass{
+  margin-top: 9px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px #222;
+  cursor: pointer;
+  color: white;
+  outline: 0px;
+  border:0px;
+  height: 30px;
+  width: 80px;
+  background: linear-gradient(69.06deg,#b798c2 -26.76%,#8696e6 44.6%,#88f0ab 132.54%);
+}
+.pauseClass:hover{
+  margin-top: 9px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px #222;
+  cursor: pointer;
+  color: white;
+  outline: 0px;
+  border:0px;
+  height: 30px;
+  width: 80px;
+  background: linear-gradient(69.06deg,#b798c2 -26.76%,#8696e6 44.6%,#88f0ab 132.54%);
+}
+.unpausedClass{
+  margin-top: 9px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px #222;
+  cursor: pointer;
+  color: white;
+  outline: 0px;
+  border:0px;
+  height: 30px;
+  width: 80px;
+  background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+}

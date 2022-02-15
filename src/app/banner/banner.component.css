@@ -1,0 +1,67 @@
+.container{
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 120px;
+  background: linear-gradient(137deg,#fdbe44 15.51%,#ff480f 51.65%,#dd0252 85.09%);
+}
+.container h3{
+font-size: 33px;
+font-family: Deezer,sans-serif;
+}
+.container h1{
+  color: white;
+  text-align: center;
+  margin-top: 17px;
+  font-size: 65px;
+  font-family: Deezer,sans-serif;
+}
+.container p{
+  color: white;
+  text-align: center;
+  margin-top: 17px;
+  font-size: 21px;
+  font-family: Deezer,sans-serif;
+  line-height: 26px;
+}
+.subscribe{
+
+  background: rgba(0,0,0,.4);
+    border: 0;
+    border-radius: 40px;
+    -webkit-box-shadow: 0 2px 12px rgb(0 0 0 / 14%);
+    box-shadow: 0 2px 12px rgb(0 0 0 / 14%);
+    color: #fff;
+    display: table;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 auto;
+    padding: 25px 107px;
+    text-transform: uppercase;
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+    -webkit-transition-property: background,color;
+    transition-property: background,color;
+    margin-top: 22px;
+    cursor: pointer;
+}
+.subscribe:hover{
+  background-color: rgb(242, 249, 255);
+  color: black;
+}
+#read-more{
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+#read-more:hover{
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}

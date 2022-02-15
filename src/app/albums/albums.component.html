@@ -1,0 +1,19 @@
+<div class="card-container">
+<div class="album-card">
+  <div class="album-card_img">
+    <img
+      src="https://e-cdns-images.dzcdn.net/images/cover/2e018122cb56986277102d2041a592c8/56x56-000000-80-0-0.jpg"
+      alt="Album Image">
+  </div>
+
+  <div class="album-card__id">
+    <p>Nº001</p>
+  </div>
+
+  <div class="pokemon-card__name">
+   <p>Daft Punk</p>
+  </div>
+  <button [ngClass]="[player ? 'checkedClass' : 'uncheckedClass']" (click)="playSound()" [disabled]="(player==true)"></button>
+  <button [ngClass]="[!player ? 'pauseClass' : 'unpausedClass']" (click)="stopSound()"[disabled]="(player==false)">Play Music</button>
+</div>
+</div>
