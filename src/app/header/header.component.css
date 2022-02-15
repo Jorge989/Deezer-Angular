@@ -75,3 +75,23 @@ cursor: pointer;
   height: 30px;
 
 }
+@media screen and (max-width: 1000px) {
+  #ul-menu{
+display: none;
+  }
+}
+
+button{
+background-color: transparent;
+  border:0px;
+  cursor: pointer;
+
+}
+#angle-down-icon{
+  width: 50px;
+  font-size: 25px;
+  outline: 0px;
+  border:0px;
+height: 50px;
+}
+

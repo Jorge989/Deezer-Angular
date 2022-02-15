@@ -24,7 +24,7 @@
       </button>
       <button
         [ngClass]="[!player && id == 1 ? 'pauseClass' : 'unpausedClass']"
-        (click)="stopSound()"
+        (click)="stopSound(1)"
         [disabled]="player == false"
       >
         <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
@@ -48,15 +48,15 @@
     </div>
     <div class="button-songs">
       <button
-        [ngClass]="[player ? 'checkedClass' : 'uncheckedClass']"
-        (click)="playSound2()"
+        [ngClass]="[player && id==2? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound2(2)"
         [disabled]="player == true"
       >
         <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
       </button>
       <button
-        [ngClass]="[!player ? 'pauseClass' : 'unpausedClass']"
-        (click)="stopSound2()"
+        [ngClass]="[!player&&id ==2 ? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound2(2)"
         [disabled]="player == false"
       >
         <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
@@ -88,7 +88,7 @@
       </button>
       <button
         [ngClass]="[!player ? 'pauseClass' : 'unpausedClass']"
-        (click)="stopSound()"
+        (click)="stopSound(1)"
         [disabled]="player == false"
       >
         <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
@@ -120,7 +120,7 @@
       </button>
       <button
         [ngClass]="[!player ? 'pauseClass' : 'unpausedClass']"
-        (click)="stopSound()"
+        (click)="stopSound(1)"
         [disabled]="player == false"
       >
         <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
@@ -152,7 +152,7 @@
       </button>
       <button
         [ngClass]="[!player ? 'pauseClass' : 'unpausedClass']"
-        (click)="stopSound()"
+        (click)="stopSound(1)"
         [disabled]="player == false"
       >
         <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
@@ -184,7 +184,7 @@
       </button>
       <button
         [ngClass]="[!player ? 'pauseClass' : 'unpausedClass']"
-        (click)="stopSound()"
+        (click)="stopSound(1)"
         [disabled]="player == false"
       >
         <fa-icon id="play-icon" [icon]="faPause"></fa-icon>

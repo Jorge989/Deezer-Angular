@@ -26,8 +26,9 @@ export class AlbumsComponent implements OnInit {
       audio1.play();
     }
   }
-  stopSound() {
+  stopSound(id:number) {
     let audio2 = this.audio;
+    this.id = id;
     audio2.src = '../assets/marilha-bebi.mp3';
     audio2.load();
     this.player = false;
@@ -35,7 +36,8 @@ export class AlbumsComponent implements OnInit {
       audio2.pause();
     }
   }
-  playSound2() {
+  playSound2(id:number) {
+    this.id = id;
     let audio1 = this.audio;
     audio1.src = '../assets/henrique-juliano.mp3';
     audio1.load();
@@ -44,7 +46,8 @@ export class AlbumsComponent implements OnInit {
       audio1.play();
     }
   }
-  stopSound2() {
+  stopSound2(id:number) {
+    this.id = id;
     let audio2 = this.audio;
     audio2.src = '../assets/henrique-juliano.mp3';
     audio2.load();
