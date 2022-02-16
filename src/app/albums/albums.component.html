@@ -312,15 +312,15 @@
     </div>
     <div class="button-songs">
       <button
-        [ngClass]="[player ? 'checkedClass' : 'uncheckedClass']"
-        (click)="playSound(1)"
+        [ngClass]="[player&&id ==10? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound10(10)"
         [disabled]="player == true"
       >
         <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
       </button>
       <button
-        [ngClass]="[!player ? 'pauseClass' : 'unpausedClass']"
-        (click)="stopSound(1)"
+        [ngClass]="[!player&&id ==10? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound10(10)"
         [disabled]="player == false"
       >
         <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
@@ -330,29 +330,29 @@
   <div class="album-card">
     <div class="album-card_img">
       <img
-        src="https://e-cdns-images.dzcdn.net/images/artist/7f4c54947caf0cffa1b49792b3cb265b/242x242-000000-80-0-0.jpg"
+        src="https://e-cdns-images.dzcdn.net/images/artist/4375fee0ade72c3eabd2d230997c0661/242x242-000000-80-0-0.jpg"
         alt="Album Image"
       />
     </div>
 
     <div class="album-card__id">
-      <p>Nº001</p>
+      <p>Nº011</p>
     </div>
 
     <div class="pokemon-card__name">
-      <p>Marília Mendonça</p>
+      <p>Charlie Brown Jr.</p>
     </div>
     <div class="button-songs">
       <button
-        [ngClass]="[player ? 'checkedClass' : 'uncheckedClass']"
-        (click)="playSound(1)"
+        [ngClass]="[player&&id ==11? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound11(11)"
         [disabled]="player == true"
       >
         <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
       </button>
       <button
-        [ngClass]="[!player ? 'pauseClass' : 'unpausedClass']"
-        (click)="stopSound(1)"
+        [ngClass]="[!player&&id ==11? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound11(11)"
         [disabled]="player == false"
       >
         <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
@@ -362,29 +362,419 @@
   <div class="album-card">
     <div class="album-card_img">
       <img
-        src="https://e-cdns-images.dzcdn.net/images/artist/0e108ffbc582b3e055f8976cc7b7884c/242x242-000000-80-0-0.jpg"
+        src="https://e-cdns-images.dzcdn.net/images/artist/e8f0450f69e4f0b0974f98e736434ce9/242x242-000000-80-0-0.jpg"
         alt="Album Image"
       />
     </div>
 
     <div class="album-card__id">
-      <p>Nº001</p>
+      <p>Nº012</p>
     </div>
 
     <div class="pokemon-card__name">
-      <p>Marília Mendonça</p>
+      <p>Os Barões Da Pisadinha</p>
     </div>
     <div class="button-songs">
       <button
-        [ngClass]="[player ? 'checkedClass' : 'uncheckedClass']"
-        (click)="playSound(1)"
+        [ngClass]="[player&&id ==12? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound12(12)"
         [disabled]="player == true"
       >
         <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
       </button>
       <button
-        [ngClass]="[!player ? 'pauseClass' : 'unpausedClass']"
-        (click)="stopSound(1)"
+        [ngClass]="[!player&&id ==12? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound12(12)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+
+</div>
+<div class="card-container">
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/84b9674e9a1e9cef2f060b5aa47f19f8/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº013</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>Ferrugem</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player && id == 13 ? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound13(13)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player && id ==13 ? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound13(13)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/9c919fc0d8b2964ed63061f5bfa5a11f/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº014</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>Ed Sheeran</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player && id==14? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound14(14)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player&&id ==14 ? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound14(14)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/70bce68e19d9c36449a1e386f2e4dbe4/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº015</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>Anitta</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player&&id ==15 ? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound15(15)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player&&id ==15? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound15(15)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/0d16ed8fcfe50191d3b3017c5e2fd053/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº016</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>Xamã</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player&&id ==16? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound16(16)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player&&id ==16? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound16(16)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/4eb6517a096da2ccd8768f1513593cb8/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº017</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>Linkin Park</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player&&id ==17? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound17(17)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player&&id ==17? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound17(17)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/9de526bc482c1dae9e267e894a57b398/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº018</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>Vintage Culture</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player&&id ==18? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound18(18)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player&&id ==18? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound18(18)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+
+</div>
+<div class="card-container">
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/dafed3b722037eba7b0c015d47f62e7c/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº019</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>Akon</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player && id == 19 ? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound19(19)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player && id ==19 ? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound19(19)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/27331b5535cf5a8fd0cece324c201a18/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº020</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>Legião Urbana</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player && id==20? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound20(20)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player&&id ==20 ? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound20(20)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/67460cdb0b52bfde1b807650958058d6/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº021</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>System of a Down</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player&&id ==21 ? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound21(21)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player&&id ==21? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound21(21)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/f2bc007e9133c946ac3c3907ddc5d2ea/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº022</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>Daft Punk</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player&&id ==22? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound22(22)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player&&id ==22? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound22(22)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/49985540a6510e9958dc0afbbe2c6bf1/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº023</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>Neelix</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player&&id ==23? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound23(23)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player&&id ==23? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound23(23)"
+        [disabled]="player == false"
+      >
+        <fa-icon id="play-icon" [icon]="faPause"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="album-card">
+    <div class="album-card_img">
+      <img
+        src="https://e-cdns-images.dzcdn.net/images/artist/238f5524a401dfdd5cac685f0f7989bd/242x242-000000-80-0-0.jpg"
+        alt="Album Image"
+      />
+    </div>
+
+    <div class="album-card__id">
+      <p>Nº024</p>
+    </div>
+
+    <div class="pokemon-card__name">
+      <p>Red Hot Chili Peppers</p>
+    </div>
+    <div class="button-songs">
+      <button
+        [ngClass]="[player&&id ==24? 'checkedClass' : 'uncheckedClass']"
+        (click)="playSound24(24)"
+        [disabled]="player == true"
+      >
+        <fa-icon id="play-icon" [icon]="faPlay"></fa-icon>
+      </button>
+      <button
+        [ngClass]="[!player&&id ==24? 'pauseClass' : 'unpausedClass']"
+        (click)="stopSound24(24)"
         [disabled]="player == false"
       >
         <fa-icon id="play-icon" [icon]="faPause"></fa-icon>

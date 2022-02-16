@@ -223,4 +223,284 @@ export class AlbumsComponent implements OnInit {
       audio2.pause();
     }
   }
+  playSound11(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/cbjr.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound11(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/cbjr.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound12(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/os-baroes-da-pisadinha.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound12(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/os-baroes-da-pisadinha.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound13(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/ferrugem.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound13(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/ferrugem.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound14(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/ed-sheeran.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound14(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/ed-sheeran.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound15(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/anitta.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound15(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/anitta.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound16(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/xamã.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound16(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/xamã.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound17(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/linkin-park.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound17(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/linkin-park.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound18(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/vintage-culture.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound18(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/vintage-culture.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound19(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/akon.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound19(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/akon.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound20(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/legiao-urbana.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound20(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/legiao-urbana.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound21(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/system-of-a-down.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound21(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/system-of-a-down.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound22(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/daft-punk.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound22(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/daft-punk.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound23(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/neelix.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound23(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/neelix.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
+  playSound24(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/red-hot-chilli-peppers.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound24(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/red-hot-chilli-peppers.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
   }
