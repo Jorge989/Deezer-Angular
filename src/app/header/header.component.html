@@ -5,11 +5,19 @@
     <img class="img" src="../assets/deezer.png">
     <h1>deezer</h1>
   </div>
-  <div id="menu">
-  <button>
-    <fa-icon id="angle-down-icon" class="menu-icon" [icon]="faHamburger"></fa-icon>
-  </button>
+  <div [ngClass]="[active == 'active'? 'mobile-menu-active' : 'mobile-menu']" (click)="handleMenu()">
+<div class="line1"></div>
+<div class="line2"></div>
+<div class="line3"></div>
 </div>
+<ul [ngClass]="[active == 'active'? 'nav-list-active' : 'nav-list']">
+<li><a href="/">Launch Deezer</a></li>
+<li><a href="/">Manage my subscription</a></li>
+<li><a href="/">Download the app</a></li>
+<li><a href="/">Plans</a></li>
+<li><a href="/">Explore Channels</a></li>
+<li><a href="/">Log out</a></li>
+</ul>
   <ul id="ul-menu">
     <li>
       <a>Download</a>
@@ -17,8 +25,8 @@
     <li>
       <a>Plans</a>
     </li>
-    <li>
-      <a>Open player</a>
+    <li id="open-player">
+      <a >Open player</a>
     </li>
   </ul>
   </nav>

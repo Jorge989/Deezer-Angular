@@ -1,7 +1,7 @@
 .container {
-height: 490px;
+height: 39vw;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +24,8 @@ height: 490px;
   margin-top: 17px;
   font-size: 75px;
   font-family: Deezer, sans-serif;
+  text-align: center;
+  width: 50%;
 }
 .container p {
   color: white;
@@ -74,4 +76,19 @@ height: 490px;
 #angle-down-icon {
   color: white;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    height:100%;
+
+    }
+    .container h1 {
+      color: white;
+      text-align: center;
+      margin-top: 17px;
+      font-size: 50px;
+      font-family: Deezer, sans-serif;
+      text-align: center;
+      width: 100%;
+    }
 }
