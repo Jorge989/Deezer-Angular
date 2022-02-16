@@ -203,4 +203,24 @@ export class AlbumsComponent implements OnInit {
       audio2.pause();
     }
   }
+  playSound10(id:number) {
+    this.id = id;
+    let audio1 = this.audio;
+    audio1.src = '../assets/alok.mp3';
+    audio1.load();
+    this.player = true;
+    if (this.player == true) {
+      audio1.play();
+    }
+  }
+  stopSound10(id:number) {
+    this.id = id;
+    let audio2 = this.audio;
+    audio2.src = '../assets/alok.mp3';
+    audio2.load();
+    this.player = false;
+    if (this.player == false) {
+      audio2.pause();
+    }
+  }
   }
