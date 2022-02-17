@@ -39,6 +39,8 @@ font-size: 17px;
 }
 .header a{
   cursor: pointer;
+  text-decoration: none;
+  color: inherit
 }
 .header #open-player{
 

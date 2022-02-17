@@ -2,6 +2,7 @@
   height: 400px;
     overflow-y: scroll;
     background-color: rgb(255, 255, 255);
+
 }
 
 .container::-webkit-scrollbar {
@@ -26,7 +27,6 @@
   grid-template-columns: repeat(6, 16.6666666667%);
   grid-auto-flow: column;
 
-
 }
 @media screen and (max-width: 1000px) {
   .card-container {
@@ -48,6 +48,7 @@
   margin-top: 10px;
 
 }
+
 .artist-text{
   flex-direction: column;
   align-items: center;
